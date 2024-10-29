@@ -3,6 +3,7 @@ import Link from "next/link";
 import { use } from 'react';
 import OptionsSelector from "../../components/OptionsSelectors";
 import Reviews from "../../components/Reviews";
+import "../../styles/ProductDetail.css";
 
 export default function ProductDetails({params}) {
     const id = Number(use(params).id);

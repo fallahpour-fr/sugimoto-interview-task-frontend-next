@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-// import '../styles/Reviews.css';
+import '../styles/Reviews.css';
 
 const Reviews = () => {
   // State to track reviews and form inputs

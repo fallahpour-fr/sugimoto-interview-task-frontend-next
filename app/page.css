@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline-width: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  *::before,
+  *::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline-width: 0px;
+  }
+  
+  html {
+    display: block;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    display: block;
+  }
+  
+  body {
+    width: 100dvw;
+    height: 100dvh;
+    font-family: 'Inter', sans-serif, 'Kanit', 'Asap Condensed', 'Roboto condenced';
+    font-size: 1rem;
+    overflow-x: hidden;
+  }

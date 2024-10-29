@@ -1,0 +1,38 @@
+.product_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;    
+}
+
+.product_container_img{
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+}
+
+.product_container_title{
+   padding: 10px;
+}
+
+.card_container{
+    width: 100%;
+    background-color: rgb(40, 40, 104);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .product_container {
+      flex-direction: column;
+      text-align: center;
+    }  
+  }

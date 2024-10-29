@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import "../styles/OptionsSelector.css";
 const OptionsSelector = ({ sizes, colors }) => {
 
     const [selectedSize, setSelectedSize] = useState(sizes[0]);
